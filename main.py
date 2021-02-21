@@ -10,7 +10,7 @@ app.secret_key = "super secret key"
 @app.route('/', methods=['GET', 'POST'])
 def entry_point():
     file_list = [
-        "aarre_intra.mp4",
+        "aarre_intro.mp4",
         "aarre_1.mp4",
         "aarre_2.mp4",
         "aarre_3.mp4",
